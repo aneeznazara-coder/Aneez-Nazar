@@ -1,0 +1,7 @@
+{
+  "name": "Aneez Queue",
+  "description": "A comprehensive clinic management system featuring AI-powered live prescription transcription, real-time queue tracking, and integrated demo payments.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
