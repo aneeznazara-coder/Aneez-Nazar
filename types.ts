@@ -8,10 +8,12 @@ export enum AppointmentStatus {
 }
 
 export type Role = 'none' | 'patient' | 'doctor';
+export type Language = 'en' | 'ar' | 'es' | 'fr' | 'de' | 'hi' | 'zh' | 'ja';
 
 export interface PatientProfile {
   name: string;
   phone: string;
+  countryCode: string;
 }
 
 export interface DoctorProfile {
